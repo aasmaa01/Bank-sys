@@ -228,6 +228,9 @@
   color: var(--color-gray-100);
   font-family: var(--font-inter);
 }
+
+
+
 .colours {
   height: 220px;
   width: 1920px;
@@ -250,6 +253,17 @@
   font-family: inherit;
   z-index: 2;
 }
+.colors,
+.frame-section {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+
+
 .colors,
 .frame-parent {
   align-self: stretch;
@@ -1120,7 +1134,7 @@ dont-have-an {
 .login {
   width: 100%;
   background-color:#1a1e1c;
-  background-image: url('public/before1@2x.png'); /*ttttttttttttttttttttttttttttttttttttttttttt*/
+  background-image: url('before1@2x.png'); /*ttttttttttttttttttttttttttttttttttttttttttt*/
   
   padding: var(--padding-11xl) 0 0;
   gap: 110px;
